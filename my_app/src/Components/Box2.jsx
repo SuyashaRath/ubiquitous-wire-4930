@@ -1,10 +1,8 @@
 // import { ReactNode } from 'react';
 import {
   Box,
-  Flex,
   Heading,
   Grid,
-  Text,
   Stack,
   Container,
   Image,
@@ -12,13 +10,12 @@ import {
 } from '@chakra-ui/react';
 export default function WithSpeechBubbles() {
     return (
-      <Box bg={useColorModeValue('gray.100', 'gray.700')}>
+      <Box bg={useColorModeValue('')}>
         <Container maxW={'6xl'} py={16} as={Stack} spacing={12}>
           <Stack spacing={0} align={'center'}>
             <Heading>LET'S GET SOME </Heading> 
             <Heading textColor={'rgb(221, 31, 45)'}> WORK EXPERIENCE </Heading>
             
-            <Text>We have been working with clients around the world</Text>
             </Stack>
             <Grid templateColumns='repeat(4,1fr)' gap={3}>
            {/* <Stack direction='row'> */}

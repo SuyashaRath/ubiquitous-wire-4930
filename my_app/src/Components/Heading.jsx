@@ -5,6 +5,9 @@ import {
     Text,
     VStack,
     useBreakpointValue,
+    Input,
+    Select,
+    Heading,
   } from '@chakra-ui/react';
   
   export default function WithBackgroundImage() {
@@ -47,6 +50,26 @@ import {
               fontSize={useBreakpointValue({ base: 'xs', md: 'xl' })}>
               The One Stop Upgrade Your Resume.Expand Your Skillset.Do An Internship.Get Placed.</Text>
               </Stack>
+              <Stack> <Flex gap='3' marginTop='10'>
+                <Input type='Text' placeholder='cities' bg='white'>
+                </Input>
+                <Select type='choose' bg='white'>
+                <option value='option1'>Option 1</option>
+                <option value='option2'>Option 2</option>
+               <option value='option3'>Option 3</option> 
+               </Select>
+               <Select type='choose' bg='white'>
+                <option value='option1'>Option 1</option>
+                <option value='option2'>Option 2</option>
+               <option value='option3'>Option 3</option> 
+               </Select>
+               <Heading as='h5' size='md' marginTop='1'> OR </Heading>
+               <input type='search' bg='white'>
+               </input> 
+               <Button colorScheme='red' size='md' width='220px' cursor='pointer'>SEARCH</Button>
+               </Flex>
+               </Stack>
+     
         </VStack>
       </Flex>
     );
