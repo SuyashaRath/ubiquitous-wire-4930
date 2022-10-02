@@ -7,6 +7,7 @@ import {
   Container,
   Image,
   useColorModeValue,
+  Link
 } from '@chakra-ui/react';
 export default function WithSpeechBubbles() {
     return (
@@ -26,7 +27,8 @@ export default function WithSpeechBubbles() {
              borderRadius={4}
              objectFit='cover'
              src='https://assets.interntheory.com/creative/home-internships/Marketing-Icon.jpg'
-             alt='Disneip'
+             alt='marketing'
+             Link='https://www.interntheory.com/internships/marketing-internships'
            />
             <Image
              boxSize='100px' 
