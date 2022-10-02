@@ -1,9 +1,12 @@
 .navbar {
     background-color: #ebebee;
-    height: 70px;
+    height: 60px;
     display: flex;
     justify-content: start;
     align-items: center;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
   }
   .img{
     font-size: medium;
@@ -43,4 +46,3 @@
     height: 40px;
     padding-right:40px;
   }
-  

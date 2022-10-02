@@ -51,17 +51,20 @@ import {
               The One Stop Upgrade Your Resume.Expand Your Skillset.Do An Internship.Get Placed.</Text>
               </Stack>
               <Stack> <Flex gap='3' marginTop='10'>
-                <Input type='Text' placeholder='cities' bg='white'>
+                <Input type='Text' placeholder='cities' bg='white'overflow='hidden' position='relative'>
                 </Input>
-                <Select type='choose' bg='white'>
-                <option value='option1'>Option 1</option>
-                <option value='option2'>Option 2</option>
-               <option value='option3'>Option 3</option> 
+                <Select type='Text' bg='white' placeholder='Type'>
+                <option value='option1'>Full Time</option>
+                <option value='option2'>Part Time</option>
+               <option value='option3'>Work From Home Time</option> 
                </Select>
-               <Select type='choose' bg='white'>
-                <option value='option1'>Option 1</option>
-                <option value='option2'>Option 2</option>
-               <option value='option3'>Option 3</option> 
+               <Select type='Text' bg='white' placeholder='Preferences'>
+                <option value='option1'>Actuarial Science</option>
+                <option value='option2'>Admin</option>
+               <option value='option3'>Animation</option> 
+               <option value='option3'>Architecture</option> 
+               <option value='option3'>Software Development</option> 
+
                </Select>
                <Heading as='h5' size='md' marginTop='1'> OR </Heading>
                <input type='search' bg='white'>

@@ -8,6 +8,7 @@ import FlexBox from "./Components/Box2"
 import P1 from  './Components/P1';
 import P2 from './Components/Features'
 import Slider from "./Components/Slider"
+import Footer from "./Components/Footer"
 function App() {
   return (
     <div className="App">
@@ -22,10 +23,7 @@ function App() {
         <Box/> <FlexBox />
         <P1/> <P2/>
         <Slider/>
-
-
-
-      
+      <Footer/>  
     </div>
   );
 }

@@ -6,22 +6,25 @@ import {
     Heading,
     Text,
     Stack,
+    Box,
+    useColorModeValue
   } from '@chakra-ui/react';
   export default function SplitWithImage() {
     return (
-      <Container maxW='5xl'py='12' bg='white'>
+      <Box bg={useColorModeValue('white')}>
+      <Container maxW='4xl'py='6'>
         <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
         <Flex>
             <Image
               rounded='md'
               alt='feature image'
-              width='300px'
+              width='400px'
               marginBottom='40'
               src='https://assets.interntheory.com/creative/chart.png'
               objectFit='cover'
             />
           </Flex>
-          <Stack spacing='4' marginTop='100px'>
+          <Stack spacing='2' marginTop='100px'>
           <Heading as='u' fontSize='2xl'>WE ARE CONSTANTLY </Heading>
             
             <Heading as='u' textColor={'rgb(221, 31, 45)'}>GROWING</Heading>
@@ -30,10 +33,9 @@ import {
             job remains our sole motive and we not stopping anytime soon.</Text>
            
           </Stack>
-          
-
         </SimpleGrid>
       </Container>
+      </Box>
     );
   }
   
