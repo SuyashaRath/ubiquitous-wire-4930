@@ -1,0 +1,48 @@
+.navbar {
+    background-color: #ebebee;
+    height: 60px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+  }
+  .img{
+    font-size: medium;
+    height: 50px;
+    padding-left :2rem;;
+  }
+  
+  .menu-bars {
+    margin-left: 2rem;
+    font-size: 1rem;
+  }
+  
+  .nav-menu {
+    background-color: #ebebee;
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    justify-content:inherit;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: 850ms;
+    padding-right:100px;
+  }
+  
+  .nav-menu.active {
+    left: 0;
+    transition: 350ms;
+  }
+  
+  .nav-text {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 8px 0px 4px;
+    list-style: none;
+    height: 40px;
+    padding-right:40px;
+  }
